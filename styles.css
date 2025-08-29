@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    width: 590px;
+    margin:100px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.post .head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+}
+.post .head .head-left{
+    display: flex;
+    align-items:center
+}
+.head-name {
+    margin: 8px;
+}
+.head-name b{
+    display: block;
+}
+.imagen img{
+    width: 590px;
+}
+.icons{
+    display: flex;
+    justify-content:start;
+
+    
+}
+.iconos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.head-left2{
+    display:flex;
+    justify-content: end;
+}
+
+.fa-html5,
+.fa-heart,
+.fa-comment,
+.fa-paper-plane,
+.fa-solid,
+.fa-bookmark{
+    font-size: 30px;
+}
+.body-post{
+    padding: 10px;
+}
